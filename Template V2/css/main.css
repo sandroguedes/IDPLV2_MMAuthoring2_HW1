@@ -1,0 +1,90 @@
+body
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #333333;
+}
+
+h1
+{
+	font-family: "Times new Roman", Times, serif;
+	font-size: 36px;
+	letter-spacing: 2px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+p
+{
+	margin-bottom: 20px;
+	line-height: 26px;
+}
+
+p:first-line
+{
+	font-size: 20px;
+}
+
+p:first-letter
+{
+	color: #000000;
+	font-weight:bold;
+	font-size: 30px;
+}
+
+img
+{
+	margin-bottom:20px;
+}
+
+#container
+{
+	width: 960px;
+	margin: 0 auto;
+}
+
+#mainNav
+{
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+#mainNav ul
+{
+	width: 300px;
+	background-color: #367eb0;
+	color: white;
+}
+
+#mainNav ul li
+{
+	padding: 15px;
+	border-bottom: 3px solid #1065a1;
+	border-top: 3px solid #4889b7;
+}
+
+#mainNav ul li:first-child
+{
+	border-top: none;
+}
+
+#mainNav ul li:last-child
+{
+	border-bottom: none;
+}
+
+#gameInfo
+{
+	margin-top: 50px;
+	margin-left: 20px;
+}
+
+#gameInfo ul
+{
+	width: 600px;
+}
+
+#gameInfo ul li:nth-child(odd)
+{
+	background-color: #8fefef;
+}
